@@ -4,11 +4,17 @@
   "description": "Aplicative desenvolvido para a disciplina de Projeto Interdisciplinar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.10.2"
-  }
+  },
+  "engines": {
+  	"node": "0.10.x"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/lcavalcante/projeto-interdisciplinar.git"
+  },
+  "license": "ISC"
 }
