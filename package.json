@@ -1,21 +1,20 @@
 {
+  "author": "",
   "name": "projeto-interdisciplinar",
-  "version": "0.0.1",
-  "description": "Aplicative desenvolvido para a disciplina de Projeto Interdisciplinar",
+  "description": "Não é o paint",
+  "version": "0.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lcavalcante/projeto-interdisciplinar.git"
   },
   "dependencies": {
     "express": "^4.10.2",
     "socket.io": "^1.2.0"
   },
+  "devDependencies": {},
+  "optionalDependencies": {},
   "engines": {
     "node": "0.10.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lcavalcante/projeto-interdisciplinar.git"
-  },
-  "license": "ISC"
+  }
 }
