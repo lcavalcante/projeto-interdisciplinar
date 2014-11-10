@@ -7,12 +7,13 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "socket.io": "^1.2.0"
   },
   "engines": {
-  	"node": "0.10.x"
+    "node": "0.10.x"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/lcavalcante/projeto-interdisciplinar.git"
   },
