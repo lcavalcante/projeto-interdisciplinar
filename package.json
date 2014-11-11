@@ -2,19 +2,25 @@
   "author": "",
   "name": "projeto-interdisciplinar",
   "description": "Não é o paint",
-  "version": "0.0.0",
+  "version": "0.0.0-1",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/lcavalcante/projeto-interdisciplinar.git"
   },
   "dependencies": {
+    "canvas": "^1.1.6",
     "express": "^4.10.2",
+    "paper": "^0.9.20",
     "socket.io": "^1.2.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "0.10.x"
+  },
+  "subdomain": "projeto-interdisciplinar",
+  "scripts": {
+    "start": "node index.js"
   }
 }
